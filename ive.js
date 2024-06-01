@@ -1,5 +1,5 @@
 // 단어 목록
-const words = ["술", "조촐", "야벙"];
+const words = ["술", "조촐"];
 
 // 텍스트 노드를 변경하는 함수
 function addEmojiToTextNode(node) {
