@@ -1,4 +1,12 @@
-.board-list .bl-mobile.bl-notice, .bl-notice, .bl-mobile i, .bl-mobile img, .board-list .bl-mobile span:nth-of-type(2) {
+.swiper-wrapper .swiper-slide {
+    margin-right: 0 !important;
+}
+
+.swiper-wrapper .swiper-slide a {
+    padding: 0 3px !important;
+}
+
+.board-list .bl-mobile.bl-notice, .bl-notice, .bl-mobile i, .bl-mobile img, .board-list .bl-mobile span:nth-of-type(3) {
 	background-color: unset !important;
     display: none !important;
 }
@@ -45,3 +53,8 @@
     font-weight: 500 !important;
     padding: 0 3px !important;
 }	
+
+#hd_pop_container,
+#hd_pop_container * {
+    display: none !important;
+}
