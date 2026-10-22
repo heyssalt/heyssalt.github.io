@@ -58,3 +58,17 @@
 #hd_pop_container * {
     display: none !important;
 }
+
+/* 시계 아이콘과 해당 줄 제거 — 시간은 유지 */
+.board-list .bl-mobile > span:has(svg.lucide-clock) {
+    display: none !important;
+}
+
+/* 오른쪽 닉네임과 시간의 줄 간격 정리 */
+.board-list .bl-mobile {
+    line-height: 16px !important;
+    gap: 0 !important;
+}
+.board-list .bl-mobile .bl-photo {
+    display: none !important;
+}
